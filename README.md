@@ -21,14 +21,18 @@
 ```
 tech-english-system/
 ├── README.md                      # 体系介绍与核心指引
+├── AI_COACH_PROMPT.md             # 专属 AI 私教系统提示词 (换电脑开箱即用)
 ├── ROADMAP.md                     # 1年 3 阶段 12 模块完整学习大纲
+├── tutorials/                     # 深度教学实战课
+│   └── 01-sentence-anatomy-tech-specs.md # 教程01: 需求长难句解剖法 (反编译读需求)
 ├── ledger/
 │   ├── error-ledger.md            # 个人专属错题本 (Bug Tracker for English)
 │   └── progress.md                # 学习打卡与进度表
 ├── library/                       # 核心语块标准库 (The Standard Library)
 │   ├── 01-engineering-verbs.md    # 核心研发动词与动词短语
 │   ├── 02-architecture-system.md  # 架构与系统设计高频词
-│   └── 03-daily-and-social.md     # 职场闲聊与日常交流语块
+│   ├── 03-daily-and-social.md     # 职场闲聊与日常交流语块
+│   └── 04-reading-tech-specs.md   # 英文技术需求与 PRD 精读指南
 └── scenarios/                     # 全真职场场景剧本库
     ├── 01-daily-standup.md        # 敏捷站会全真话术
     ├── 02-code-review-and-pr.md   # PR 评审与异步博弈
