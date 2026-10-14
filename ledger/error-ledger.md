@@ -56,3 +56,15 @@
 * 💡 **根本原因**：海外面试中抱怨前环境会被判定为缺乏自驱力与负面态度（Red Flag）。
 * ✅ **地道修复**：
   * 正面重构：*“I'm looking to step out of my comfort zone and work in a diverse, international team that values engineering autonomy and code quality.”*
+
+---
+
+### Issue #007: 需求句法 - 冠词泛指 (a vs the) 与 instead 断句标点
+* ❌ **错误表达**：`In the event of network failure ... immediately ,instead, it shoud ...`
+* 💡 **根本原因**：
+  1. 泛指“发生某种故障/事件”时，单数可数名词需用不定冠词 `a`（如 `a network failure`, `a cache miss`）；特指已知的那一次故障才用 `the`。
+  2. `instead` 是副词而非连词。连接两个独立主谓分句时，前面必须用分号 `;` 或句号 `.`，后面加逗号 `,`。
+* ✅ **地道修复**：
+  * 句型模板：`In the event of a [故障], the system must not [动作] immediately; instead, it should [对策].`
+  * 例句：*“In the event of a cache miss, the service must not throw an error immediately; instead, it should query the database.”*
+
