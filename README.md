@@ -21,8 +21,11 @@
 ```
 tech-english-system/
 ├── README.md                      # 体系介绍与核心指引
+├── ZCODE_TUTOR_SKILL.md           # Zcode 专属英语私教 Skill 与全套指导规范
 ├── AI_COACH_PROMPT.md             # 专属 AI 私教系统提示词 (换电脑开箱即用)
 ├── ROADMAP.md                     # 1年 3 阶段 12 模块完整学习大纲
+├── scripts/                       # 本地开源语音交互中继
+│   └── voice_tutor.py             # 耳朵(Whisper) + 门禁(VAD) + 嘴巴(Kokoro) 全双工脚本
 ├── tutorials/                     # 深度教学实战课
 │   └── 01-sentence-anatomy-tech-specs.md # 教程01: 需求长难句解剖法 (反编译读需求)
 ├── ledger/
